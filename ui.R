@@ -1,3 +1,4 @@
+# great application alsont done
 library(shiny)
 #  defination uai for MPG ^^^^
 ui <- pageWithSidebar(
@@ -13,7 +14,7 @@ ui <- pageWithSidebar(
 )
 # different variables are ploted v/s MPG server logic is defined ^^^^
 server <- function(input, output) {
-    
+# afeter all the it is    
 }
 library(shiny)
 
@@ -34,7 +35,7 @@ ui <- pageWithSidebar(
 server <- function(input, output) {
     
 }
-
+# upto you
 shinyApp(ui, server)
 # defination aui for MPG ^^^
 ui <- pageWithSidebar(
@@ -56,7 +57,7 @@ ui <- pageWithSidebar(
         
     ),
     
-    
+# yeah alsmot done    
     mainPanel()
 )
 # We are defining UI for MPG
@@ -90,7 +91,7 @@ ui <- fluidPage(
             
             # Plot output of requested variable vs MPG ----
             plotOutput("Pompg")
-            
+ # uff wohat a rowker           
         )
     )
 )
